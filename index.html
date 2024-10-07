@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.7.0/p5.js" defer></script>
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+    <title>Sorting Visualizer</title>
+</head>
+<body>
+    <h1>Sorting</h1>
+    <p>Just a li'l visualization of a few common sorting algorithms</p>
+    <div id="canvas_frame">
+        <div id="canvas_parent"></div>
+        <button id="play">play</button>
+        <button id="reset">reset</button>
+        <button id="step">step</button>
+        <select name="sort" id="sort">
+            <option value="quick">Quick sort</option>
+            <option value="selection" selected>Selection sort</option>
+            <option value="insertion">Insertion sort</option>
+            <option value="heap">Heap sort</option>
+            <option value="bubble">Bubble sort</option>
+            <option value="merge">Merge sort</option>
+        </select>
+    </div>
+</body>
+</html>
